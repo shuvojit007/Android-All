@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:textSize="25sp"
+    android:text="Class"
+    android:textColor="#000"
+    android:gravity="center"
+    android:id="@+id/classname"
+    android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:text="Teacher Name"
+        android:gravity="center"
+        android:textColor="#000"
+        android:id="@+id/teachername"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:text="Room"
+        android:gravity="center"
+        android:textColor="#000"
+        android:id="@+id/room"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:id="@+id/starttime"
+        android:text="Start Time"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:id="@+id/endtime"
+        android:gravity="center"
+        android:text="End Time"
+        android:layout_height="wrap_content" />
+</LinearLayout>

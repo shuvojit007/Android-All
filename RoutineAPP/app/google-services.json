@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "218935262094",
+    "firebase_url": "https://siuroutineapp2.firebaseio.com",
+    "project_id": "siuroutineapp2",
+    "storage_bucket": "siuroutineapp2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218935262094:android:678ef51f791f75ae",
+        "android_client_info": {
+          "package_name": "com.example.shobojit.siuroutineapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218935262094-dhf9h4mhoc1j1f3q86o9dooj5p9te0d0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shobojit.siuroutineapp2",
+            "certificate_hash": "1046867ddb6833990a8b9b55558270d3bb1184f5"
+          }
+        },
+        {
+          "client_id": "218935262094-e1ljpeobbljhdebg29tbjdas9oligpku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmm4h0URjAlKBA6cZ_9M3UEgrzIX30GT8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218935262094-e1ljpeobbljhdebg29tbjdas9oligpku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218935262094:android:a48b94ff289a2ab5",
+        "android_client_info": {
+          "package_name": "com.example.shobojit.firebase_practise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218935262094-gndi91mh4p1tk2e0m410kfp0v5ecv782.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shobojit.firebase_practise",
+            "certificate_hash": "1046867ddb6833990a8b9b55558270d3bb1184f5"
+          }
+        },
+        {
+          "client_id": "218935262094-e1ljpeobbljhdebg29tbjdas9oligpku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmm4h0URjAlKBA6cZ_9M3UEgrzIX30GT8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218935262094-e1ljpeobbljhdebg29tbjdas9oligpku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218935262094:android:a71a347b4269bed6",
+        "android_client_info": {
+          "package_name": "com.example.shobojit.siuroutineapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218935262094-supbvrb32i32g589locno12hj19b6pop.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shobojit.siuroutineapp",
+            "certificate_hash": "1046867ddb6833990a8b9b55558270d3bb1184f5"
+          }
+        },
+        {
+          "client_id": "218935262094-e1ljpeobbljhdebg29tbjdas9oligpku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmm4h0URjAlKBA6cZ_9M3UEgrzIX30GT8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218935262094-e1ljpeobbljhdebg29tbjdas9oligpku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218935262094:android:15f9bf84c369f079",
+        "android_client_info": {
+          "package_name": "com.example.shobojit.routineapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218935262094-kqjcrmkp3pug462h08gd4g0hq9t1hedo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shobojit.routineapp",
+            "certificate_hash": "1046867ddb6833990a8b9b55558270d3bb1184f5"
+          }
+        },
+        {
+          "client_id": "218935262094-e1ljpeobbljhdebg29tbjdas9oligpku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmm4h0URjAlKBA6cZ_9M3UEgrzIX30GT8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218935262094-e1ljpeobbljhdebg29tbjdas9oligpku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

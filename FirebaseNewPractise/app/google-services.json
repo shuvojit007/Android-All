@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "472113997718",
+    "firebase_url": "https://fir-realtimedatabase-e8e97.firebaseio.com",
+    "project_id": "fir-realtimedatabase-e8e97",
+    "storage_bucket": "fir-realtimedatabase-e8e97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472113997718:android:c0dc698179511e81",
+        "android_client_info": {
+          "package_name": "com.example.shobojit.firebaserealtimedatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472113997718-f9d9s4q9io1fekcffrtabtn5cvhi5eg4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shobojit.firebaserealtimedatabase",
+            "certificate_hash": "1046867ddb6833990a8b9b55558270d3bb1184f5"
+          }
+        },
+        {
+          "client_id": "472113997718-kapa30b3kdcio7po37na0l377lmlua68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoV1ihvmPcxqKBkBj7S_vol3ahxy2u3Ww"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472113997718-kapa30b3kdcio7po37na0l377lmlua68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472113997718:android:9e7d1e43634252bb",
+        "android_client_info": {
+          "package_name": "com.example.shobojit.firebasenewpractise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472113997718-v3q4l88i92qbtd19jt5piao75oc6gujk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shobojit.firebasenewpractise",
+            "certificate_hash": "1046867ddb6833990a8b9b55558270d3bb1184f5"
+          }
+        },
+        {
+          "client_id": "472113997718-kapa30b3kdcio7po37na0l377lmlua68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoV1ihvmPcxqKBkBj7S_vol3ahxy2u3Ww"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472113997718-kapa30b3kdcio7po37na0l377lmlua68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

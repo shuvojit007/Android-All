@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_event_bus"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.shobojit.eventbus.EventBusPrac">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/ed"
+        android:layout_height="wrap_content" />
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <Button
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        />
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:id="@+id/tv"
+      />
+</LinearLayout>

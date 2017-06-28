@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "583742040790",
+    "firebase_url": "https://fir-storage-cdd2c.firebaseio.com",
+    "project_id": "fir-storage-cdd2c",
+    "storage_bucket": "fir-storage-cdd2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583742040790:android:f2779873a6548c43",
+        "android_client_info": {
+          "package_name": "com.example.shobojit.firebasestorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583742040790-9kdj9db74ka3uvms85ebcjuli87nf3hh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shobojit.firebasestorage",
+            "certificate_hash": "1046867DDB6833990A8B9B55558270D3BB1184F5"
+          }
+        },
+        {
+          "client_id": "583742040790-j3f0qcldflhuin8ta4t5hc3u067fks3d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMc-NvqbNRJ4L1FUnGouHrQ3jo7Eqg-5I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583742040790-j3f0qcldflhuin8ta4t5hc3u067fks3d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

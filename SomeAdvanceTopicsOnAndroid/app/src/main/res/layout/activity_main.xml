@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center"
+    tools:context="com.example.shobojit.someadvancetopicsonandroid.Butter_knife">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:id="@+id/ed"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/btn"
+        android:text="Click Me "
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed"
+        android:layout_alignLeft="@+id/ed"
+        android:layout_alignStart="@+id/ed"
+        android:layout_marginLeft="81dp"
+        android:layout_marginStart="81dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/btn1"
+        android:text="Click Me 2 "
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed"
+        android:layout_toRightOf="@+id/btn"
+        android:layout_toEndOf="@+id/btn" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tt"
+        android:layout_below="@+id/btn"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

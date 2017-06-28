@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_json_parsing_01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shobojit.networkingpractise.Json_parsing_jakir_01.Json_parsing_01">
+<TextView
+    android:layout_width="match_parent"
+    android:id="@+id/jstxt"
+    android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Parese Json"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="137dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="32dp"
+        android:id="@+id/jsnbtn" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/jsnbtn"
+        android:layout_alignRight="@+id/jsnbtn"
+        android:layout_alignEnd="@+id/jsnbtn"
+        android:layout_marginRight="19dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="167dp"
+        android:id="@+id/pgbar" />
+</RelativeLayout>

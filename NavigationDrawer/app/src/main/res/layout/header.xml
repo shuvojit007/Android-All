@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:diagonal="http://schemas.android.com/apk/res-auto"
+    android:background="#EEEEEE"
+    android:layout_height="200dp">
+
+    <com.github.florent37.diagonallayout.DiagonalLayout
+        android:id="@+id/diagonalLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        diagonal:diagonal_angle="10"
+
+        diagonal:diagonal_gravity="left|bottom"
+        diagonal:diagonal_handleMargins="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/a"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome To
+Sylhet International University"
+            android:textColor="@android:color/white"
+            android:layout_gravity="clip_horizontal"
+            android:fontFamily="sans-serif-light"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="90dp"
+            android:textSize="20sp"
+            android:id="@+id/tt1"
+            />
+    </com.github.florent37.diagonallayout.DiagonalLayout>
+
+
+</RelativeLayout>

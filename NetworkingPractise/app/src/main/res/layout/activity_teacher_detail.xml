@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_teacher_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shobojit.networkingpractise.TeacherDetail.Teacher_detail">
+<ListView
+    android:layout_width="match_parent"
+    android:id="@+id/teacherlist"
+    android:layout_height="match_parent"></ListView>
+</RelativeLayout>

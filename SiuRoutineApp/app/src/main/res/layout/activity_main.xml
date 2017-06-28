@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shobojit.siuroutineapp.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#e5f5e9e9"
+        android:layout_margin="20dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/student"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/layout_corner"
+            android:text="AS A Student"
+            android:textSize="25sp" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="wrap_content"
+            android:layout_height="15dp" />
+        <Button
+            android:textSize="25sp"
+            android:id="@+id/teacher"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/layout_corner"
+            android:text="AS A TEacher" />
+    </LinearLayout>
+
+</RelativeLayout>

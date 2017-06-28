@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "891369234487",
+    "firebase_url": "https://fribaserealtimedatabasedemo.firebaseio.com",
+    "project_id": "fribaserealtimedatabasedemo",
+    "storage_bucket": "fribaserealtimedatabasedemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891369234487:android:dc76c89aab24f2cb",
+        "android_client_info": {
+          "package_name": "com.example.shobojit.fribaserealtimedatabasedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891369234487-4buijf2meurhn7uglo570tivl1luf978.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shobojit.fribaserealtimedatabasedemo",
+            "certificate_hash": "1046867DDB6833990A8B9B55558270D3BB1184F5"
+          }
+        },
+        {
+          "client_id": "891369234487-r0b3gunsf3315s633bsolq4k0qbbbnfq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAejGykDADHqKC6ilGlWzxdYSmLO7u4Tys"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891369234487-r0b3gunsf3315s633bsolq4k0qbbbnfq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

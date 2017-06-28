@@ -1,0 +1,49 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+    defaultConfig {
+        applicationId "com.example.shobojit.onesignaldemo"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        manifestPlaceholders = [onesignal_app_id: "7ea3c363-12e9-45aa-9d47-45e27e980ba8",
+                                // Project number pulled from dashboard, local value is ignored.
+                                onesignal_google_project_number: "872738404523"]
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.0.1'
+    compile 'me.biubiubiu.justifytext:library:1.1'
+
+    compile 'com.facebook.fresco:fresco:0.14.1'
+    // If your app supports Android versions before Ice Cream Sandwich (API level 14)
+    compile 'com.facebook.fresco:animated-base-support:0.14.1'
+    // For animated GIF support
+    compile 'com.facebook.fresco:animated-gif:0.14.1'
+    compile "com.facebook.fresco:imagepipeline-okhttp3:0.14.1"
+
+
+
+    compile 'com.onesignal:OneSignal:3.+@aar'
+    // Required for OneSignal, even if you have added FCM.
+    compile 'com.google.android.gms:play-services-gcm:+'
+    // Required for geotagging
+    compile "com.google.android.gms:play-services-location:+"
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:design:25.0.1'
+}

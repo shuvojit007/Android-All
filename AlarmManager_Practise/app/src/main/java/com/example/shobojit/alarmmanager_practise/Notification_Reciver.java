@@ -1,0 +1,44 @@
+package com.example.shobojit.alarmmanager_practise;
+
+import android.app.Notification;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.media.RingtoneManager;
+import android.net.Uri;
+import android.support.v4.app.NotificationCompat;
+
+/**
+ * Created by SHOBOJIT on 5/22/2017.
+ */
+
+public class Notification_Reciver extends BroadcastReceiver {
+    @Override
+    public void onReceive(Context context, Intent intent) {
+        Uri uri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM);
+
+        if(uri == null) {
+            uri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+        }
+        NotificationManager notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
+        Intent in = new Intent(context, Notification_Click.class);
+        in.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        PendingIntent pendingIntent = PendingIntent.getActivity(context,100,in,PendingIntent.FLAG_UPDATE_CURRENT);
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(context)
+                .setContentIntent(pendingIntent)
+                .setSmallIcon(android.R.drawable.alert_dark_frame)
+                .setContentTitle("Notificaiton Title")
+                .setContentText("Notification Text")
+                .setSound(uri)
+                .setAutoCancel(true);
+
+
+        notificationManager.notify(0,builder.build());
+
+
+       // Intent intent1 = new Intent(context, RingtonePlayingService.class);
+        //context.startService(intent1);
+    }
+}

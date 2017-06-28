@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.shobojit.progressbar.MainActivity">
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:onClick="CatLoading"
+      android:text="Cat Loading"/>
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:onClick="InfinityLoading"
+      android:text="Infinity Loading"/>
+
+  <com.tt.whorlviewlibrary.WhorlView xmlns:app="http://schemas.android.com/apk/res-auto"
+      android:id="@+id/whorl"
+      android:layout_width="1dp"
+      android:layout_height="1dp"
+      android:layout_marginTop="12dp"
+      app:whorlview_circle_colors="#F14336_#ffffff_#5677fc_#F44336_#4CAF50"
+      app:whorlview_circle_speed="500"
+      app:whorlview_parallax="fast"
+      app:whorlview_strokeWidth="6"
+      app:whorlview_sweepAngle="90">
+  </com.tt.whorlviewlibrary.WhorlView>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.shobojit.firebasenewpractise.Alert.Bottom_Navigation">
+
+<FrameLayout
+
+    android:layout_width="match_parent"
+    android:layout_gravity="bottom"
+    android:layout_height="wrap_content">
+    <View
+        android:layout_width="match_parent"
+        android:background="@drawable/shadow"
+        android:layout_height="4dp"/>
+
+    <android.support.design.widget.BottomNavigationView
+        android:layout_width="match_parent"
+        app:menu="@menu/nav"
+        android:layout_height="wrap_content">
+
+    </android.support.design.widget.BottomNavigationView>
+</FrameLayout>
+
+</android.support.design.widget.CoordinatorLayout>
